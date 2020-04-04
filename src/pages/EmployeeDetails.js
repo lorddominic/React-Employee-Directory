@@ -2,13 +2,18 @@ import React from "react";
 import { MDBDataTable } from "mdbreact";
 
 function EmployeeDetails(props) {
-
     return (
-        <React.Fragment>
-            <h1>{props.employee.name.first}</h1>
-            <h1>{props.employee.name.last}</h1>
-            <p>{props.employee.gender}</p>
-        </React.Fragment>
+        <tr key={props.key}>
+            <td>{props.firstName}</td>
+            <td>{props.lastName}</td>
+            <td>{props.gender}</td>
+            <td>{props.email}</td>
+            <td>{props.cell}</td>
+            <td><img src={props.picture.medium} /></td>
+
+
+        </tr>
+
 
     )
 
