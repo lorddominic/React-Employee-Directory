@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBDataTable } from "mdbreact";
+
 
 function EmployeeDetails(props) {
     return (
@@ -7,11 +7,10 @@ function EmployeeDetails(props) {
             <td>{props.firstName}</td>
             <td>{props.lastName}</td>
             <td>{props.gender}</td>
+            <td>{props.location}</td>
             <td>{props.email}</td>
             <td>{props.cell}</td>
             <td><img src={props.picture.medium} /></td>
-
-
         </tr>
 
 
