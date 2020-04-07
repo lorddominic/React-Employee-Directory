@@ -1,5 +1,13 @@
+# Employee Directory
+
+## Description
+This is an app that shows the employee of a company along with their personal infomation. Employees can be sorted by name alphabetically or reverse. You can search part of the name of some employees by typing some letters.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## [Open the app!] (https://lorddominic.github.io/react-employee-directory/)
+
+The following picture shows a glimpse of the app.
+![react employee] (![reactEmployee](https://user-images.githubusercontent.com/46208528/78689789-92736c00-78ab-11ea-92a6-0ba08ea97eb7.PNG))
 ## Available Scripts
 
 In the project directory, you can run:
